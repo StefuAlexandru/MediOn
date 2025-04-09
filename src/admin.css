@@ -1,0 +1,123 @@
+
+body {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:19px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #cff0f2, #a5e7af); 
+    animation: background-shift 10s ease-in-out infinite alternate; 
+}
+
+
+.wrapper {
+    
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td {
+  border: 2px solid #4c4c4c;
+  padding: 8px; 
+
+
+}
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #4c4c4c;
+}
+
+thead{
+    border:2px solid #4c4c4c;
+    background-color: #beef8b;
+}
+thead th{
+  border:2px solid #4c4c4c;
+}
+.table img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.search{
+  padding:10px;
+ 
+}
+.form-control{
+  font-size: 16px;
+  border:2px solid #38b000;
+  border-radius:5px;
+}
+.btn.button {
+  font-size:15px;
+  padding:10px;
+  margin-top:10px;
+  border: 2px solid #38b000;
+  border-radius:20px;
+  color: #38b000;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn.button:hover {
+  background-color: #38b000;
+  color: #fff;
+  cursor: pointer; 
+}
+.btn-primary,.btn-danger {
+  padding: 10px 15px;
+  border-radius: 20px; 
+  margin-right:10px;
+  font-size: 15px; 
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #38b000;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #267a38;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  cursor: pointer;
+}
+
+
